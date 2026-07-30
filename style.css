@@ -1,0 +1,129 @@
+
+:root{
+    --main-color:#FFFFFF;
+    --text-color:#666666;
+    --title-color:#333333;
+    --icon-red:#FF4E50;
+    --icon-blue:#4E73DB;
+    --icon-green:#1CD7AD;
+    --icon-yellow:#FFA507;
+
+}
+.container{
+    outline: 2px dashed red;
+    max-width: 1200px;
+    width: 480px;
+        margin: 0 auto;
+        padding: 0 15px;
+}
+
+.header{
+    padding-top: 19px;
+    padding-bottom: 138px;
+    background-image:url(./Rectangle\ 1.png);
+ background-size:cover;
+    background-position: center; 
+width: 100%;
+height: 100%;
+
+}
+
+.header-login{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 13.986px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: transparent;
+}
+.header-signin{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 13.986px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+outline: 3px solid #FFF;
+display: flex;
+align-items: center;
+justify-content: center;
+background: transparent;
+border-radius: 18px;
+}
+.header-buttons{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    justify-content: center;
+}
+.header-title{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: uppercase;
+padding-top: 123px;
+}
+.header-caption{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 30.041px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding-top: 22px;
+}
+.header-text{
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 18.025px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+width: 247.0px;
+height: 43.0px;
+padding-top: 12px;
+padding-bottom: 57px;
+}
+.header-button{
+    width: 280.0px;
+height: 40.0px;
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 13.999px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background-color: #FF4E50;
+border-radius: 20px;
+}
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.hero{
+padding-top: 60px;    
+}
+.hero-title{
+    color: #333;
+text-align: center;
+font-family: Montserrat;
+font-size: 22.004px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
